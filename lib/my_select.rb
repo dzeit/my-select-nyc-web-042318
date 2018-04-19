@@ -1,4 +1,5 @@
 def my_select(array)
   array.select { |num| num.even? }
-  yield
+  yield(array[num])
+  end 
 end
