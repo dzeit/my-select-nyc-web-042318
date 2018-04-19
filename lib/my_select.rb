@@ -7,3 +7,20 @@ def my_select(array)
   end 
   new_array
 end
+
+array.each do |ele|
+  ele 
+end
+
+
+array.select do |n|
+  n.odd? 
+end 
+
+array.select do |n|
+  n > 10 
+end 
+
+array.select do |num|
+  num > 10 && num < 100
+end 
