@@ -8,6 +8,10 @@ def my_select(array)
   new_array
 end
 
+my_select(array) do |ele| 
+  ele < 30
+end
+
 array.each do |ele|
   ele 
 end
